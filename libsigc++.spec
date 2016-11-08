@@ -1,13 +1,12 @@
 Name     : libsigc++
 Version  : 2.10.0
-Release  : 1
+Release  : 2
 URL      : http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz
 Source0  : http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz
 Summary  : Typesafe signal and callback system for C++
 Group    : Development/Tools
 License  : LGPL-2.1
 Requires: libsigc++-lib
-Requires: libsigc++-data
 
 %description
 libsigc++ -- The Typesafe Callback Framework for C++
@@ -17,19 +16,11 @@ allows you to define signals and to connect those signals to any
 callback function, either global or a member function, regardless of
 whether it is static or virtual.
 
-%package data
-Summary: data components for the libsigc++ package.
-Group: Data
-
-%description data
-data components for the libsigc++ package.
-
-
 %package dev
 Summary: dev components for the libsigc++ package.
 Group: Development
 Requires: libsigc++-lib
-Requires: libsigc++-data
+Requires: libsigc++-doc
 Provides: libsigc++-devel
 
 %description dev
@@ -45,7 +36,6 @@ doc components for the libsigc++ package.
 %package lib
 Summary: lib components for the libsigc++ package.
 Group: Libraries
-Requires: libsigc++-data
 
 %description lib
 lib components for the libsigc++ package.
