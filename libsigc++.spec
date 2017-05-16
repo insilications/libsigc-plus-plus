@@ -1,6 +1,6 @@
 Name     : libsigc++
 Version  : 2.10.0
-Release  : 3
+Release  : 4
 URL      : http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz
 Source0  : http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz
 Summary  : Typesafe signal and callback system for C++
