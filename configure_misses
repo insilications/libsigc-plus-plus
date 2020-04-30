@@ -1,1 +1,1 @@
-Configure miss: if g++ -std=c++17 static flag -static works
+Configure miss: non-standard Sun libCstd reverse_iterator
