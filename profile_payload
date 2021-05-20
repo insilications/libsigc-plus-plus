@@ -1,0 +1,1 @@
+meson test --verbose --num-processes 1 -C builddir || :

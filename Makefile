@@ -1,5 +1,6 @@
 PKG_NAME := libsigc++
-URL = https://download.gnome.org/sources/libsigc++/3.0/libsigc++-3.0.6.tar.xz
+URL = https://github.com/libsigcplusplus/libsigcplusplus.git
 ARCHIVES = 
+ARCHIVES_GIT = 
 
 include ../common/Makefile.common

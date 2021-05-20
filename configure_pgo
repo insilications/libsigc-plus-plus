@@ -1,0 +1,3 @@
+-Ddefault_library=both
+-Dbuild-documentation=false
+-Dbenchmark=false
